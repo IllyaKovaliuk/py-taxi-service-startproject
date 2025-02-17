@@ -1,11 +1,14 @@
-.idea/
-.vscode/
-*.iml
-.env
-.DS_Store
+# Ігнорування віртуального середовища
 venv/
-.pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
+.venv/
+
+# Ігнорування бази даних SQLite
 db.sqlite3
+
+# Ігнорування кешованих файлів Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ігнорування конфігурації PyCharm
+.idea/
